@@ -270,23 +270,6 @@ ol.sahe li:hover:before{
 	padding: 5px 30px;
 	border: none;
 }
-@media only screen and (max-width: 725px){
-#mobile-header{
-		display: block !important;
-    width: 100% !important;
-    position: fixed!important;
-    bottom: 0;
-    border-radius: 1.5em 1.5em 0 0;
-    box-shadow: 0 10px 10px 9px rgba(27,35,29,.78), 0 2px 6px 2px rgba(5, 8, 10, 0.15);
-}
-}
-@media (max-width: 1024px)
-#mobile-header {
-    display: block!important;
-    width: 100%!important;
-}
-
-
 .footer-widgets{
 	color:#fff;
 	background:#2767f99c;
