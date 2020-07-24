@@ -283,6 +283,148 @@ ol.sahe li:hover:before{
 	width:100px;
 	
 }
+.services-section{
+  background: #334cff;
+  padding:60px;
+	box-shadow: 0px 4px 8px 0px rgba(0,0,0,.9);
+}
+.inner-width{
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  overflow: hidden;
+}
+.section-title{
+  text-align: center;
+  color: #ddd;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.border{
+  width: 200px;
+  height: 2px;
+  background: #82ccdd;
+  margin: 40px auto;
+}
+.services-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.service-box{
+  max-width: 30%;
+  padding: 10px;
+  text-align: center;
+  color: #ddd;
+  cursor: pointer;
+}
+
+.service-icon{
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border: 3px solid #82ccdd;
+  color: #82ccdd;
+  margin-bottom: 30px;
+  margin-top: 16px;
+  transition: 0.3s linear;
+}
+.service-icon i{
+  line-height: 70px;
+  transform: rotate(-45deg);
+  font-size: 26px;
+}
+.service-box:hover .service-icon{
+  background: #82ccdd;
+  color: #ddd;
+}
+.service-title{
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.service-title a{
+  color: #ffcc12;
+}
+.service-title a:link, a:visited, a:active {
+    text-decoration: none;
+    color: #ffcc12;
+}
+.service-desc{
+  font-size: 14px;
+}
+
+@media screen and (max-width:1024px) {
+  .service-box{
+    max-width: 30%;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .service-box{
+    max-width: 30%;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .service-box{
+    max-width: 100%;
+  }
+}
+@media only screen and (max-width: 700px){
+#mobile-header{
+		display: block !important;
+    width: 100% !important;
+    position: fixed!important;
+    bottom: 0;
+    border-radius: 1.5em 1.5em 0 0;
+    box-shadow: 0 10px 10px 9px rgba(27,35,29,.78), 0 2px 6px 2px rgba(5, 8, 10, 0.15);
+}
+}
+@media (max-width: 768px)
+#mobile-header {
+    display: block!important;
+    width: 100%!important;
+}
+.inside-header {
+    box-shadow: 0 7px 14px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
+}	
+div.waves{
+  width: 100%;
+  bottom: 0;
+  position: relative;
+  z-index: 80;
+}
+svg{
+  position: relative;
+  width: 100%;
+	transform:rotate(180deg);
+  bottom: 0;
+  left: 0;
+  animation-name: move-left;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.spacer{
+  height: 100px;
+  width: 100%;
+}
+
+@keyframes example {
+  0%   {
+    left:0px;
+    top:0px;}
+  
+  50%  {
+    left:22px;
+    top:22px;}
+  
+  100% {
+    left:0px; 
+    top:0px;}
+}
 .site-info {
     color: #fff;
     background: #7ba2fb;
