@@ -160,75 +160,6 @@ ol.sahe li:hover:before{
   background: #fff;
   color: #0568FF;
 }
-
-#toc_container {
- background:#ddd;
-   max-width:450px;
-   position:relative;
-   padding:10px;
-   border-radius:4px;
-   margin:10px;
-	 margin-bottom: 50px; 
-}
-
-#toc_container span.toc_toggle{
-	 position: relative;
-   font-weight: bold;
-   outline: none;
-    font-size: 15px;
-    text-align: center;
-}
-
-#toc_container ul li{
-		background:#fff;
-   padding:5px 5px 10px 10px;
-   border-radius:4px;
-   margin-top:10px;
-   -webkit-box-shadow: 0 2px 15px rgba(0,0,0,.05);
-   box-shadow:0 2px 15px rgba(0,0,0,.05);
-}
-
-#toc_container a, a:link, a:visited, a:active{
-	text-decoration:none;
-	color:#0000FF;
-
-}
-#toc_container a:visited, a:hover, a:focus{
-	text-decoration:none;
-}
-
-#toc_container p.toc_title {
-	padding: 10px;
-}
-
-
-#toc_container:hover {
-  box-shadow: 0 7px 14px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
-}
-
-.toc_title {
-    background:#ddd;
-   padding:10px 10px 0;
-   border-radius:4px;
-   margin-top:10px;
-   -webkit-box-shadow: 0 2px 15px rgba(0,0,0,.05);
-   box-shadow:0 2px 15px rgba(0,0,0,.05);
-}
-
-.satriadaftar{overflow:hidden}
-.satriadaftar .satria-ini{font-size:14px}
-.satriadaftar .satria-ini a{line-height:30px;width:32px;color:#fff;border-radius:3px;background:#6AB2F2;transition:all 0.25s;display:inline-block;text-align:center;margin-bottom:3px}
-.satriadaftar .satria-ini a:hover{text-decoration:underline;color:#FFFFFF}
-.satriadaftar .satria-wrap{margin-top:20px}
-.satriadaftar .satria-group{display:inline-block;width:100%;background:#F9F9F9;margin-bottom:10px}
-.satriadaftar .satria-head{font-weight:700;overflow:hidden;margin-bottom:10px;background:#1581BC;font-size:15px}
-.satriadaftar .satria-head a{color:#FFFFFF;background:#19A3EA;float:left;margin:-5px -10px -8px -10px;padding:12px 30px;border-top-right-radius:50px}
-.satriadaftar .satria-item{float:left;color:#727272;width:33.3%;border-left:2px solid #D7D7D7}
-.satriadaftar .satria-item a{line-height:24px;font-size:14px;color:#7A7A7A;padding-right:10px;text-overflow:ellipsis;overflow:hidden;font-weight:100;white-space:nowrap;padding-left:10px}
-@media screen and (max-width:1066px){.satriadaftar .satria-ini a{margin:1px}}
-@media only screen and (max-width:768px){.satriadaftar .satria-item{width:50%}}
-@media screen and (max-width:480px){.satriadaftar .satria-item{width:100%}}
-
 .separate-containers .inside-right-sidebar{
 	position:fixed;
 	margin-left:190px;
@@ -390,41 +321,6 @@ ol.sahe li:hover:before{
 .inside-header {
     box-shadow: 0 7px 14px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
 }	
-div.waves{
-  width: 100%;
-  bottom: 0;
-  position: relative;
-  z-index: 80;
-}
-svg{
-  position: relative;
-  width: 100%;
-	transform:rotate(180deg);
-  bottom: 0;
-  left: 0;
-  animation-name: move-left;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
-.spacer{
-  height: 100px;
-  width: 100%;
-}
-
-@keyframes example {
-  0%   {
-    left:0px;
-    top:0px;}
-  
-  50%  {
-    left:22px;
-    top:22px;}
-  
-  100% {
-    left:0px; 
-    top:0px;}
-}
 .site-info {
     color: #fff;
     background: #7ba2fb;
