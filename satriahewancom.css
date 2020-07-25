@@ -9,7 +9,7 @@ position: relative;
     color: #fff;
     text-decoration: none;
     transition: all .3s ease-out;
-	  font-family:cursive;
+	  font-family:serif;
 		font-size:.9em;
 }
 .inside-article ol li a{
@@ -216,10 +216,10 @@ ol.sahe li:hover:before{
 }
 @media only screen and (max-width: 700px){
 #mobile-header{
-		display: block !important;
+    display: block !important;
     width: 100% !important;
     position: fixed!important;
-    bottom: 0;
+    bottom: 0px;
     border-radius: 1.5em 1.5em 0 0;
     box-shadow: 0 10px 10px 9px rgba(27,35,29,.78), 0 2px 6px 2px rgba(5, 8, 10, 0.15);
 }
@@ -229,9 +229,7 @@ ol.sahe li:hover:before{
     display: block!important;
     width: 100%!important;
 }
-.inside-header {
-    box-shadow: 0 7px 14px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
-}	
+	
 .site-info {
     color: #fff;
     background: #7ba2fb;
@@ -251,6 +249,58 @@ a.murub:hover{color:#fff;text-shadow:0 1px 0 #0972cd,0px 0 3px #0972cd,0px 0 5px
 @keyframes Gradient{0%{background-position:0 50%}50%{background-position:100% 50%}100%{background-position:0 50%}}
 @media only screen and (max-width:1099px){.sect-left{width:31.55%}.footer-sections{padding:30px}}
 @media only screen and (max-width:979px){.sect-left{width:100%;margin-right:0;margin-bottom:20px}.sect-left:last-child{margin-bottom:0}.footer-sections{padding:30px}}
+.satriadaftar{overflow:hidden}
+.satriadaftar .satria-ini{font-size:14px}
+.satriadaftar .satria-ini a{line-height:30px;width:32px;color:#fff;border-radius:3px;background:#6AB2F2;transition:all 0.25s;display:inline-block;text-align:center;margin-bottom:3px}
+.satriadaftar .satria-ini a:hover{text-decoration:underline;color:#FFFFFF}
+.satriadaftar .satria-wrap{margin-top:20px}
+.satriadaftar .satria-group{display:inline-block;width:100%;background:#F9F9F9;margin-bottom:10px}
+.satriadaftar .satria-head{font-weight:700;overflow:hidden;margin-bottom:10px;background:#1581BC;font-size:15px}
+.satriadaftar .satria-head a{color:#FFFFFF;background:#19A3EA;float:left;margin:-5px -10px -8px -10px;padding:12px 30px;border-top-right-radius:50px}
+.satriadaftar .satria-item{float:left;color:#727272;width:33.3%;border-left:2px solid #D7D7D7}
+.satriadaftar .satria-item a{line-height:24px;font-size:14px;color:#7A7A7A;padding-right:10px;text-overflow:ellipsis;overflow:hidden;font-weight:100;white-space:nowrap;padding-left:10px}
+@media screen and (max-width:1066px){.satriadaftar .satria-ini a{margin:1px}}
+@media only screen and (max-width:768px){.satriadaftar .satria-item{width:50%}}
+@media screen and (max-width:480px){.satriadaftar .satria-item{width:100%}}
+div.waves{
+  width: 100%;
+  bottom: 0;
+  position: relative;
+  z-index: 80;
+	
+}
+.waves svg{
+  position: relative;
+  width: 100%;
+	transform:rotate(180deg);
+  bottom: 0;
+  left: 0;
+  animation-name: move-left;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+	
+}
+.spacer{
+  height: 100px;
+  width: 100%;
+	
+}
+
+@keyframes example {
+  0%   {
+    left:0px;
+    top:0px;}
+  
+  50%  {
+    left:22px;
+    top:22px;}
+  
+  100% {
+    left:0px; 
+    top:0px;}
+	
+}
 
 input[type="search"] {
 border-radius: .5em;
@@ -261,3 +311,47 @@ border-radius: .5em;
 .inside-header {
     box-shadow: 0 7px 14px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
 }	
+.author-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 4%;
+    margin-top: 60px;
+    font-size: 0.8em;
+	background:#ddd;
+	border-radius:2em;
+}
+
+.author-links a {
+    font-size: 3em;
+    line-height: 0.5em;
+    float: right;
+	  color:#000;
+}
+
+.author-box .avatar {
+    width: 50px;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+
+h5.author-title {
+    margin-bottom:0.5em;
+	  font-weight:bold;
+}
+@media only screen and (max-width: 700px){
+.author-box {
+width:85%;
+margin-left:20px;
+padding-right:10px;
+	padding-left:10px;
+margin-right:60px	
+}
+.author-links a {	
+	margin-right:20px;
+	margin-bottom:10px;
+	font-size:3.5em;
+}
+}
