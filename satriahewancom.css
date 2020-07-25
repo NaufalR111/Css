@@ -371,6 +371,7 @@ background-size: cover !important;
     font-size: 0.8em;
 	background:#ddd;
 	border-radius:2em;
+	width: 93%;
 }
 
 .author-links a {
